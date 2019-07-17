@@ -216,11 +216,11 @@ button.rbc-input::-moz-focus-inner {
   border: 1px solid #DDD;
   display: flex;
   flex-direction: column;
-  flex: 1 0 0;
+  flex: auto;
   width: 100%;
   user-select: none;
   -webkit-user-select: none;
-  height: 100%; }
+  height: auto; }
 
 .rbc-month-header {
   display: flex;

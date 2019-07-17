@@ -33,12 +33,11 @@
   border: 1px solid $calendar-border;
   display: flex;
   flex-direction: column;
-  flex: 1 0 0;
+  flex: auto;
   width: 100%;
   user-select: none;
   -webkit-user-select: none;
-
-  height: 100%; // ie-fix
+  height: auto; // ie-fix
 }
 
 .rbc-month-header {

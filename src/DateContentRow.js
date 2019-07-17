@@ -55,7 +55,7 @@ class DateContentRow extends React.Component {
     let eventSpace = getHeight(findDOMNode(this)) - headingHeight
 
     // return Math.max(Math.floor(eventSpace / eventHeight), 1)
-    return Math.floor(eventHeight * 10);
+    return Math.floor(eventHeight * 200);
   }
 
   renderHeadingCell = (date, index) => {
