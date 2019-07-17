@@ -230,10 +230,8 @@ button.rbc-input::-moz-focus-inner {
   display: flex;
   position: relative;
   flex-direction: column;
-  flex: 1 0 0;
-  flex-basis: 0px;
   overflow: hidden;
-  height: 100%; }
+  height: auto; }
   .rbc-month-row + .rbc-month-row {
     border-top: 1px solid #DDD; }
 
